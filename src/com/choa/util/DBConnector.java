@@ -6,8 +6,8 @@ import java.sql.DriverManager;
 public class DBConnector {
 
 	public Connection getConnector() throws Exception {
-		String user="user03";
-		String password="user03";
+		String user="hr";
+		String password="tiger";
 		String url="jdbc:oracle:thin:@localhost:1521:xe";
 		String driver ="oracle.jdbc.driver.OracleDriver";
 		
